@@ -3,7 +3,7 @@ class Solution {
 int max=0;
 int min=Integer.MAX_VALUE;
 
-for(int i:prices){
+for(int i:prices){ 
     if(i<min){
         min=i;
     }
